@@ -1,0 +1,249 @@
+.check {
+    color: aquamarine ;
+    font-family: 'Pacifico', cursive;
+  }
+  .image{
+      position:absolute;
+      right: 0px;
+      top: 120px;
+      margin-top: 10px;
+  }
+  .dropdown-item{
+    text-align: center;
+    background-color: rgb(30,40,45);
+    color: grey;
+  }
+  .h1{
+    margin-top: 13%;
+    text-align: center;
+    color: rgb(170,126,102);
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    font-weight: lighter;
+    padding: 20px;
+  }
+  .body{
+  background-color: rgb(21, 29, 32);
+    min-height: 100vh;
+    margin-top: 0%;
+  }
+  .h2{
+    text-align: center;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(219, 200, 190);
+    font-family: 'El Messiri', sans-serif;
+  }
+  .navbar-nav{
+  margin: left;
+  font-family: 'El Messiri', sans-serif;
+  }
+  .hoven:hover{
+    color: rgb(255, 255, 255) !important;
+    }
+  
+  .dropdown-menu { 
+    background-color: rgb(30,40,45);
+    border: 1px solid wheat;
+  }
+  .main{
+    padding-top: 2.5rem;
+    margin-top: 7%;
+    background-color: rgb(38,40,45);
+    margin-left: 5%;
+    margin-right: 50%;
+    min-height: 75vh;
+    border: 2px solid rgba(245, 222, 179, 0.377);
+    border-radius: 40px;
+  }
+  .btn {
+    margin-top: 5%;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3rem;
+  }
+  .btn:hover{
+    margin-top: 5%;
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(218, 166, 10);
+    border: 2px solid wheat;
+  }
+  .front{ 
+    overflow: hidden;
+    clear: both;
+  }
+  .p{
+    text-align: center;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(219, 200, 190);
+    font-family: 'El Messiri', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .services{
+    min-height: 95vh;
+    max-height: 95vh;
+    padding-top:1.25rem;
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+  .main2{
+    margin-top: 4%;
+    background-color: rgb(38,40,45);
+    margin-right: 50%;
+    min-height: 75vh;
+    border: 2px solid rgba(245, 222, 179, 0.377);
+    border-radius: 2.5rem;
+    float: left;
+    margin-top: 0.9rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    overflow: hidden;
+    width: 500px;
+    height: 800px;
+  }
+  .dropdown-item:hover{
+    border-radius: 2rem;
+    background-color: rgb(21, 29, 32) !important;
+    color: white !important;
+  }
+  .dropdown:hover .dropdown-menu {
+    border: 1px solid wheat;
+    border-radius: 1rem;
+    color: black;
+    background-color: rgb(33, 37, 41);
+    display: block;
+    margin-top: 0;
+  }
+  .navbar{
+    border: 1px solid rgb(63, 77, 77);
+  }
+  .right{
+    float: right;
+    margin-right: 15rem; 
+    border: 2px solid rgba(245, 222, 179, 0.377);
+    border-radius: 1.3rem;
+    padding: 1.5%;
+  }
+  .help{
+    min-height: 45vh;
+  }
+  .footer{
+    background-color: rgb(38,40,45);
+    border: 1px solid rgba(245, 222, 179, 0.377);
+    color: aqua;
+  }
+  #navBarSearchForm {
+    min-width: 35rem;
+  }
+  .form-control::placeholder {
+    font-family: 'Pacifico', cursive;
+    opacity: 1;
+  }
+  
+  .searchbox{
+  border: 2px solid wheat;
+  border-radius: 2rem;
+    float: left;
+    margin-right: 19rem;
+    width: 28rem;
+    overflow: hidden;
+  }
+  .front-text{
+    float: left;
+    margin-left: 38rem;
+    border-radius: 2rem;
+    margin-top: 55rem;
+      background-color: rgba(38, 40, 45, 0.555);
+  }
+  .front{
+    min-height: 50rem;
+    max-height: 95rem;
+  }
+  .logo{
+    border: 2px solid wheat;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-right: 15rem;
+    margin-top: 6rem;
+  }
+  .line{
+    background-color: rgb(38,40,45);
+    min-height: 5vh;
+    border-top: 1px solid rgba(245, 222, 179, 0.342);
+    border-bottom: 1px solid rgba(245, 222, 179, 0.342);
+  }
+
+.csvtu-content{
+  border-top: 2px solid wheat;
+  border-bottom: 2px solid wheat;
+  min-height: 40rem;
+  max-height: 60rem;
+  background-color: rgb(170, 126, 102);
+}
+.csvtu-content1{
+  min-height: 30rem;
+  max-height: 60rem;
+  background-color: rgb(21, 29, 32);
+}
+.active{
+  border-bottom: 1px solid rgba(245, 222, 179, 0.584);
+
+}
+
+.sem{
+margin-left: 3rem;
+margin-top: 4rem;  
+}
+.year{
+  margin-left: 4rem;
+  float: left;
+}
+
+.front-csvtu{
+  float: left;
+  margin-left: 23rem;
+  border-radius: 2rem;
+  margin-top: 42rem;
+    background-color: rgba(38, 40, 45, 0.555);
+}
+.shop{
+  position:absolute;
+  left: 28rem;
+  bottom: 16rem;
+}
+
+.h1{
+  margin-top: 1rem;
+}
+.right{
+  min-width: 19.5rem;
+}
+.help{
+  overflow: hidden;
+}
+.services{
+  overflow: hidden;
+}
+.book-btn{
+  margin-left: 8.8em;
+  margin-bottom: 10rem;
+}
+.lecture-btn{
+margin-left: 8rem;
+}
+.front{
+  background-color: rgb(21, 29, 32);
+  min-height: 60rem;
+}
+.year-text{
+  font-size: 2rem;
+}
+.para{
+  font-size: 1.3rem !important;
+}
+.logo{
+  opacity: 0.7;
+}
