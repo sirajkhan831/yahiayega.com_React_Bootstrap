@@ -4,12 +4,15 @@ import {
   Switch,
   Link
 } from "react-router-dom";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import './index.css';
 
 //pages
 import CSVTU from './CSVTU';
 import Home from './Home';
 import PTRSU from './PTRSU';
-
+import './style1.css'
 
 function App() {
   return (
@@ -76,10 +79,10 @@ function App() {
               </div>
               <hr className="clearfix w-100 d-md-none pb-3" />
               <div className="check">
-                <a className="navbar-brand" href="https://www.yahiayega.com" style={{ color: 'white', fontFamily: 'El Messiri', fontSize: '1.6rem' }}>Instagram &nbsp;
-                  <img src="ig.png" alt="logo" width='35px' height='35px' /></a>
-                <a className="navbar-brand" href="https://www.yahiayega.com" style={{ color: 'white', fontFamily: 'El Messiri', fontSize: '1.6rem' }}>&emsp;&emsp;Facebook &nbsp;
+                <a className="navbar-brand social" href="https://www.yahiayega.com" style={{ color: 'white', fontFamily: 'El Messiri', fontSize: '1.6rem' }}>
                   <img src="FB.png" alt="logo" width='35px' height='35px' /></a>
+                <a className="navbar-brand social" href="https://www.yahiayega.com" style={{ color: 'white', fontFamily: 'El Messiri', fontSize: '1.6rem' }}>&emsp;&emsp;
+                  <img src="ig.png" alt="logo" width='35px' height='35px' /></a>
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
     color: aquamarine ;
     font-family: 'Pacifico', cursive;
   }
-  .image{
+  .image-logo{
       position:absolute;
       right: 0px;
       top: 120px;
@@ -45,9 +45,9 @@
   
   .dropdown-menu { 
     background-color: rgb(30,40,45);
-    border: 1px solid wheat;
   }
   .main{
+    max-width: 55rem;
     padding-top: 2.5rem;
     margin-top: 7%;
     background-color: rgb(38,40,45);
@@ -63,8 +63,6 @@
     font-size: 1.3rem;
   }
   .btn:hover{
-    margin-top: 5%;
-    font-family: 'Pacifico', cursive;
     background-color: rgb(218, 166, 10);
     border: 2px solid wheat;
   }
@@ -111,7 +109,7 @@
   }
   .dropdown:hover .dropdown-menu {
     border: 1px solid wheat;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
     color: black;
     background-color: rgb(33, 37, 41);
     display: block;
@@ -239,6 +237,7 @@ margin-left: 8rem;
   min-height: 60rem;
 }
 .year-text{
+  text-decoration: underline;
   font-size: 2rem;
 }
 .para{
@@ -246,4 +245,39 @@ margin-left: 8rem;
 }
 .logo{
   opacity: 0.7;
+}
+.welcome{
+  padding-top: 7rem;
+  margin-bottom: 10rem;
+}
+.portal{
+  overflow: hidden;
+  margin-top: 3rem;
+  max-width: 45rem;
+  border-radius: 2rem;
+  border: 2px solid wheat;
+  max-height: 35rem;
+}
+.front-welcome{
+  max-width: 100rem;
+}
+.logo-welcome{
+  margin-left: 6rem;
+}
+.shop-btn{
+  align-items: center;
+  max-width: 8.3rem;
+  position:static;
+  margin-left: 18rem;
+}
+.vertical-center{
+  margin: 0;
+  position: absolute;
+  top: 64%;
+  left: 23%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.soon-btn{
+  cursor:wait;
 }
