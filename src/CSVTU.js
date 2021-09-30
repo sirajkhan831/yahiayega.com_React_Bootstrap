@@ -1,11 +1,12 @@
 function CSVTU() {
   return (
     <div>
+      <a href="https://www.yahiayega.com/shop"><button type="button" class="fixed-btn btn btn-warning">Shop</button></a>
       <div className="container-fluid front">
-        <div className="logo" style={{ float: 'right', position: 'relative' }}><img src="csvtu.webp" alt="Logo" width="1400rem" height="720rem" /></div>
+        <div className="logo" style={{ float: 'right', position: 'relative' }}><img src="csvtu.webp" alt="Logo" width="1400rem" height="720rem" />
+        </div>
         <div className="front-text front-csvtu" style={{ position: 'absolute' }}>
-          <h1 className="h1" style={{ fontSize: '3rem', color: 'white' }}>Chhattisgarh Swami Vivekanand Technical University
-          </h1>
+          <h1 className="h1" style={{ fontSize: '3rem', color: 'white' }}>Chhattisgarh Swami Vivekanand Technical University</h1>
         </div>
       </div>
       <div className="container-fluid csvtu-content">

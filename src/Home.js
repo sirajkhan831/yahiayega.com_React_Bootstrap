@@ -1,6 +1,7 @@
 function Home() {
     return (
         <body className="body">
+            <a href="https://www.yahiayega.com/shop"><button type="button" class="fixed-btn btn btn-warning">Shop</button></a>
             <div className="container-fluid front-welcome">
                 <div className="row welcome">
                     <div className="col portal">
@@ -13,7 +14,7 @@ function Home() {
             </div>
             <div className="line"></div>
             <div className="container-fluid mid">
-                <h1 className="h1" style={{ fontSize: '50px', marginTop: '3rem', marginBottom: '1rem' }}>Services we offer</h1>
+                <h1 className="h1" style={{ fontSize: '50px', marginTop: '3rem', marginBottom: '1rem' ,textDecoration: 'underline'}}>Services we offer</h1>
                 <div className="row">
                     <div className="services">
                         <div className="col-sm main2">

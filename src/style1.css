@@ -281,3 +281,40 @@ margin-left: 8rem;
 .soon-btn{
   cursor:wait;
 }
+.front-forum{
+  padding-top: 4rem;
+  min-height: 45rem;
+  background-color: rgb(21, 29, 32);
+}
+.container-forum{
+  margin-left: 22%;
+  border-radius: 2rem;
+  background-image: url(/src/forum-bg.jpg);
+  opacity: 100%;
+  overflow: hidden;
+  background-color: rgb(38,40,45);
+  margin-top: 2rem;
+  max-width: 55rem;
+}
+.text{
+  opacity: 100%;
+  float: right;
+  opacity: 100%;
+}
+.fixed-btn{
+  background-color: rgba(241, 189, 31, 0.425);
+  border: 2px solid wheat;
+  display: inline-block;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 1.4rem;
+  min-height: 4.4rem;
+}
+.fixed-btn:hover{
+  background-color: rgb(241, 189, 31);
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}

@@ -1,6 +1,7 @@
 function PTRSU() {
     return (
         <div>
+            <a href="https://www.yahiayega.com/shop"><button type="button" class="fixed-btn btn btn-warning">Shop</button></a>
             <div className="container-fluid front prsu" style={{ minHeight: '70rem' }}>
             <div className="logo" style={{ float: 'right', position: 'relative' }}><img src="prsu.jpeg" alt="Logo" width="1400rem" height="720rem" /></div>
             <div className="front-text front-csvtu" style={{ position: 'absolute' }}>

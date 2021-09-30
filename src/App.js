@@ -12,6 +12,7 @@ import './index.css';
 import CSVTU from './CSVTU';
 import Home from './Home';
 import PTRSU from './PTRSU';
+import FORUM from './FORUM';
 import './style1.css'
 
 function App() {
@@ -52,10 +53,10 @@ function App() {
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link hoven" href="#">FORUM</a>
+                    <a className="nav-link hoven" href="/forum">FORUM</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link hoven" href="#">CODE WISDOM</a>
+                    <a className="nav-link hoven" href="https://www.yahiayega.com/codewisdom">CODE WISDOM</a>
                   </li>
                 </ul>
               </div>
@@ -68,20 +69,20 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/csvtu" component={CSVTU} />
           <Route exact path="/ptrsu" component={PTRSU} />
+          <Route exact path="/forum" component={FORUM}/>
         </Switch>
       </Router>
-      <Router><Route path="/" Component={Home} /></Router>
-      <div className="footer" style={{ maxWidth: '116.31rem' }}>
-        <div className="page-footer font-small blue pt-4">
-          <div className="container-fluid text-center text-md-left">
+      <div className="footer" style={{ maxWidth: '116.31rem' , minWidth: '116.3rem'}}>
+        <div className="page-footer font-small blue pt-4" style={{ maxWidth: '116.31rem' , minWidth: '116.3rem'}}>
+          <div className="container-fluid text-center text-md-left" style={{ maxWidth: '116.31rem' , minWidth: '116.3rem'}}>
             <div className="row">
               <div className="col-md-6 mt-md-0 mt-3">
               </div>
               <hr className="clearfix w-100 d-md-none pb-3" />
               <div className="check">
-                <a className="navbar-brand social" href="https://www.yahiayega.com" style={{ color: 'white', fontFamily: 'El Messiri', fontSize: '1.6rem' }}>
+                <a className="navbar-brand social" href="https://www.facebook.com" style={{ color: 'white', fontFamily: 'El Messiri', fontSize: '1.6rem' }}>
                   <img src="FB.png" alt="logo" width='35px' height='35px' /></a>
-                <a className="navbar-brand social" href="https://www.yahiayega.com" style={{ color: 'white', fontFamily: 'El Messiri', fontSize: '1.6rem' }}>&emsp;&emsp;
+                <a className="navbar-brand social" href="https://www.instagram.com" style={{ color: 'white', fontFamily: 'El Messiri', fontSize: '1.6rem' }}>&emsp;&emsp;
                   <img src="ig.png" alt="logo" width='35px' height='35px' /></a>
               </div>
             </div>
