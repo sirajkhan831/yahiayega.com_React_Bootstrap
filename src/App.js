@@ -18,7 +18,7 @@ import './style1.css'
 function App() {
     return (
         <div className="App">
-            <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+            {/* <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
                 <div className="container-fluid nav">
                     <div className="check">
                         <a className="navbar-brand" href="/" style={{ color: 'white' }}>YahiAyega.com
@@ -66,6 +66,49 @@ function App() {
                         </div>
                     </div>
                 </div>
+            </nav> */}
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div className="right-side">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="/">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.yahiayega.com/shop" target="_blank">Shop</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Universities
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="/csvtu">CSVTU</a></li>
+                                        <li><a class="dropdown-item" href="/ptrsu">PTRSU</a></li>
+                                        <li><a class="dropdown-item" href="https://www.yahiayega.com/medical" target="_blank">Medical</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.yahiayega.com/codewisdom" target="_blank">Code Wisdom</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/forum">Forum</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/login">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div className="check" style={{marginLeft: '1rem'}}>
+                        <a className="navbar-brand" href="/" style={{ color: 'white' }}>YahiAyega.com
+                            <img src="logo.png" alt="logo" width='35px' height='35px' />
+                        </a>
+                    </div>
             </nav>
             <Router>
                 <Switch>
