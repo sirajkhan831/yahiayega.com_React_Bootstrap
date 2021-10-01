@@ -1,80 +1,57 @@
 function PTRSU() {
     return (
         <div>
-            <a href="https://www.yahiayega.com/shop"><button type="button" class="fixed-btn btn btn-warning">Shop</button></a>
-            <div className="container-fluid front prsu" style={{ minHeight: '70rem' }}>
-            <div className="logo" style={{ float: 'right', position: 'relative' }}><img src="prsu.jpeg" alt="Logo" width="1400rem" height="720rem" /></div>
-            <div className="front-text front-csvtu" style={{ position: 'absolute' }}>
-                <h1 className="h1" style={{ fontSize: '3rem', color: 'white' }}>Pandit Ravishankar Shukla University Chhattisgarh
-                    </h1>
+        <div className="container-fluid front-csvtu1" style={{ paddingTop: '1rem' }}>
+            <div className="csvtu-text">
+                <h1 className="h1" style={{ fontSize: '2.4rem', marginTop: '5rem' ,marginBottom: '0px',borderTop: '2px solid wheat', borderBottom: '2px solid wheat',borderRadius: '5px'}}>Pandit RaviShankar University Chhattisgarh</h1></div>
+            <div className="container-fluid image-csvtu"><div className="row"><div className="col col-front-csvtu"><img src="prsu.jpeg" alt="" className="img-fluid" style={{ border: '2px solid wheat', borderRadius: '2rem' }} /></div></div></div>
+        </div>
+        <div className="container-fluid csvtu-content">
+            <h2 className="h2 blue-text" style={{ marginTop: '9rem', fontSize: '3rem', marginBottom: '4rem' }}>Bachelor of Computer Applications</h2>
+            <div className="row">
+                <div className="col col-cse" style={{ padding: '2rem' }}><h2 className="h2 blue-text" style={{ fontSize: '2rem' }}>1st Year</h2>
+                    <h2 className="h2 blue-text" style={{ marginBottom: '4rem' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quisquam.</h2>
                 </div>
-            </div>
-            <div className="container-fluid csvtu-content">
-                <h2 className="h2 year-text" style={{ fontSize: '3rem', color: 'rgb(30, 32, 37)', marginTop: '7rem', marginBottom: '4rem' }}>B.Com</h2>
-                <div className="row">
-                    <div className="col-sm year" style={{ minHeight: '28rem', maxWidth: '34rem', paddingLeft: '3%', paddingRight: '3%', paddingTop: '3%' }}>
-                        <h2 className="h2 year-text" style={{ float: 'left', color: 'rgb(30, 32, 37)', marginLeft: '32%' }}>1st
-                            year</h2><br />
-                        <h2 className="para" style={{ float: 'left', marginTop: '2rem', fontSize: '1.3rem' }}>This is a sample second semester
-                            para to check if everything is working fine or not</h2>
-                    </div>
-                    <div className="col-sm year" style={{ minHeight: '28rem', maxWidth: '34rem', paddingLeft: '3%', paddingRight: '3%', paddingTop: '3%' }}>
-                        <h2 className="h2 year-text" style={{ float: 'left', color: 'rgb(30, 32, 37)', marginLeft: '32%' }}>2nd year</h2><br />
-                        <h2 className="para" style={{ float: 'left', marginTop: '2rem', fontSize: '1.3rem' }}>This is a sample second semester
-                            para to check if everything is working fine or not</h2>
-                    </div>
-                    <div className="col-sm year" style={{ minHeight: '28rem', maxWidth: '34rem', paddingLeft: '3%', paddingRight: '3%', paddingTop: '3%' }}>
-                        <h2 className="h2 year-text" style={{ float: 'left', color: 'rgb(30, 32, 37)', marginLeft: '32%' }}>3rd year
-                        </h2><br />
-                        <h2 className="para" style={{ float: 'left', marginTop: '2rem', fontSize: '1.3rem' }}>This is a sample second semester
-                            para to check if everything is working fine or not</h2>
-                    </div>
+                <div className="col col-cse" style={{ padding: '2rem' }}><h2 className="h2 blue-text" style={{ fontSize: '2rem' }}>2nd Year</h2>
+                    <h2 className="h2 blue-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quisquam.</h2>
                 </div>
-            </div>
-            <div className="container-fluid csvtu-content" style={{ backgroundColor: 'rgb(21, 29, 32)' }}>
-                <h2 className="h2 year-text" style={{ fontSize: '3rem', color: 'rgb(30, 32, 37)', marginTop: '7rem', marginBottom: '4rem', color: 'rgb(170, 126, 102)' }}>BBA</h2>
-                <div className="row">
-                    <div className="col-sm year" style={{ minHeight: '28rem', maxWidth: '34rem', paddingLeft: '3%', paddingRight: '3%', paddingTop: '3%', color: 'rgb(170, 126, 102)' }}>
-                        <h2 className="h2 year-text" style={{ float: 'left', color: 'rgb(30, 32, 37)', marginLeft: '32%', color: 'rgb(170, 126, 102)' }}>1st
-                            year</h2><br />
-                        <h2 className="para" style={{ float: 'left', marginTop: '2rem', fontSize: '1.3rem' }}>This is a sample second semester
-                            para to check if everything is working fine or not</h2>
-                    </div>
-                    <div className="col-sm year" style={{ minHeight: '28rem', maxWidth: '34rem', paddingLeft: '3%', paddingRight: '3%', paddingTop: '3%', color: 'rgb(170, 126, 102)' }}>
-                        <h2 className="h2 year-text" style={{ float: 'left', color: 'rgb(30, 32, 37)', marginLeft: '32%', color: 'rgb(170, 126, 102)' }}>2nd year</h2><br />
-                        <h2 className="para" style={{ float: 'left', marginTop: '2rem', fontSize: '1.3rem' }}>This is a sample second semester
-                            para to check if everything is working fine or not</h2>
-                    </div>
-                    <div className="col-sm year" style={{ minHeight: '28rem', maxWidth: '34rem', paddingLeft: '3%', paddingRight: '3%', paddingTop: '3%', color: 'rgb(170, 126, 102)' }}>
-                        <h2 className="h2 year-text" style={{ float: 'left', color: 'rgb(30, 32, 37)', marginLeft: '32%', color: 'rgb(170, 126, 102)' }}>3rd year
-                        </h2><br />
-                        <h2 className="para" style={{ float: 'left', marginTop: '2rem', fontSize: '1.3rem' }}>This is a sample second semester
-                            para to check if everything is working fine or not</h2>
-                    </div>
+                <div className="col col-cse" style={{ padding: '2rem' }}><h2 className="h2 blue-text" style={{ fontSize: '2rem' }}>3rd Year</h2>
+                    <h2 className="h2 blue-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quisquam.</h2>
                 </div>
-            </div>
-            <div className="container-fluid csvtu-content">
-                <h2 className="h2 year-text" style={{ fontSize: '3rem', color: 'rgb(30, 32, 37)', marginTop: '7rem', marginBottom: '4rem' }}>BCA</h2>
-                <div className="year" style={{ minHeight: '28rem', maxWidth: '34rem', paddingLeft: '3%', paddingRight: '3%', paddingTop: '3%' }}>
-                    <h2 className="h2 year-text" style={{ float: 'left', color: 'rgb(30, 32, 37)', marginLeft: '32%' }}>1st
-                        year</h2><br />
-                    <h2 className="para" style={{ float: 'left', marginTop: '2rem', fontSize: '1.3rem' }}>This is a sample second semester
-                        para to check if everything is working fine or not</h2>
-                </div>
-                <div className="year" style={{ minHeight: '28rem', maxWidth: '34rem', paddingLeft: '3%', paddingRight: '3%', paddingTop: '3%' }}>
-                    <h2 className="h2 year-text" style={{ float: 'left', color: 'rgb(30, 32, 37)', marginLeft: '32%' }}>2nd year</h2><br />
-                    <h2 className="para" style={{ float: 'left', marginTop: '2rem', fontSize: '1.3rem' }}>This is a sample second semester
-                        para to check if everything is working fine or not</h2>
-                </div>
-                <div className="year" style={{ minHeight: '28rem', maxWidth: '34rem', paddingLeft: '3%', paddingRight: '3%', paddingTop: '3%' }}>
-                    <h2 className="h2 year-text" style={{ float: 'left', color: 'rgb(30, 32, 37)', marginLeft: '32%' }}>3rd year
-                    </h2><br />
-                    <h2 className="para" style={{ float: 'left', marginTop: '2rem', fontSize: '1.3rem' }}>This is a sample second semester
-                        para to check if everything is working fine or not</h2>
-                </div>
-
             </div>
         </div>
+        <div className="container-fluid csvtu-content" style={{ backgroundColor: 'rgb(30, 32, 37)' }}>
+            <h2 className="h2 wheat-text" style={{ marginTop: '9rem', fontSize: '3rem', marginBottom: '4rem' }}>Bachelor of Commerce</h2>
+            <div className="row">
+                <div className="col col-cse" style={{ padding: '2rem' }}><h2 className="h2 wheat-text" style={{ fontSize: '2rem' }}>1st Year</h2>
+                    <h2 className="h2 wheat-text" style={{ marginBottom: '4rem' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quisquam.</h2>
+                </div>
+                <div className="col col-cse" style={{ padding: '2rem' }}><h2 className="h2 wheat-text" style={{ fontSize: '2rem' }}>2nd Year</h2>
+                    <h2 className="h2 wheat-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quisquam.</h2>
+                </div>
+                <div className="col col-cse" style={{ padding: '2rem' }}><h2 className="h2 wheat-text" style={{ fontSize: '2rem' }}>3rd Year</h2>
+                    <h2 className="h2 wheat-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quisquam.</h2>
+                </div>
+            </div>
+        </div>
+        <div className="container-fluid csvtu-content">
+            <h2 className="h2 blue-text" style={{ marginTop: '9rem', fontSize: '3rem', marginBottom: '4rem' }}>Bachelors of Business Administration</h2>
+            <div className="row">
+                <div className="col col-cse" style={{ padding: '2rem' }}><h2 className="h2 blue-text" style={{ fontSize: '2rem' }}>1st Year</h2>
+                    <h2 className="h2 blue-text" style={{ marginBottom: '4rem' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quisquam.</h2>
+                </div>
+                <div className="col col-cse" style={{ padding: '2rem' }}><h2 className="h2 blue-text" style={{ fontSize: '2rem' }}>2nd Year</h2>
+                    <h2 className="h2 blue-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quisquam.</h2>
+                </div>
+                <div className="col col-cse" style={{ padding: '2rem' }}><h2 className="h2 blue-text" style={{ fontSize: '2rem' }}>3rd Year</h2>
+                    <h2 className="h2 blue-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quisquam.</h2>
+                </div>
+            </div>
+        </div>
+        <a href="https://wa.me/8966076379" target="_blank">
+            <div className="fixed-btn"></div>
+        </a>
+    </div>
     );
 }
 
