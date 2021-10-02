@@ -356,13 +356,13 @@
     display: flex;
 }
 .data-front{
-    /* background-image: url("https://source.unsplash.com/1920x1080/weekly?nature"); */
-    min-height: 50rem;
+    background-image: url("https://source.unsplash.com/1920x1080/weekly?nature");
+    min-height: 52rem;
     background-color: rgb(21, 29, 32);
     text-align: center;
 }
 .login{
-    background-color: rgb(38, 40, 45);
+    background-color: rgba(38, 40, 45, 0.363);
     margin-top: 4rem;
     border: 2px solid wheat;
     border-radius: 2rem;
@@ -496,4 +496,12 @@
     margin-top: 3rem;
     border: 2px solid wheat;
     border-radius: 2rem;
+}
+.login-btn{
+    background-color: rgba(25, 135, 84, 0.425);
+    border: 1px solid wheat;
+}
+.login-btn:hover{
+    background-color: rgb(25, 135, 84);
+    border: 1px solid wheat;
 }

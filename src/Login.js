@@ -12,9 +12,9 @@ function Login() {
                         <h2 className="h2">Password : </h2>
                         <form action=""><input type="password" id="myInput" id="pass" /></form>
                     </div>
-                    <div className="container-fluid button" style={{ fontFamily: 'El Messiri' }}>
+                    <div className="container-fluid button" style={{ fontFamily: 'El Messiri' ,marginTop: '4px',marginBottom: '8px'}}>
                         <a href="https://www.yahiayega.com/shop">
-                            <button type="button" class="btn btn-success col home-btn" style={{ fontFamily: 'El Messiri', marginBottom: '2rem' }}>Login
+                            <button type="button" class="btn btn-success col home-btn login-btn" style={{ fontFamily: 'El Messiri', marginBottom: '2rem' }}>Login
                             </button>
                         </a>
                     </div>
