@@ -280,7 +280,8 @@
 .portal {
     background-color: rgb(33, 37, 41);
     overflow: hidden;
-    margin-top: 3rem;
+    margin-top: 3%;
+    margin-bottom: 2rem;
     max-width: 45rem;
     border-radius: 2rem;
     border: 2px solid wheat;
@@ -505,3 +506,11 @@
     background-color: rgb(25, 135, 84);
     border: 1px solid wheat;
 }
+.img-logo{
+    background-color: rgba(0, 255, 255, 0.397);
+}
+@media screen and (max-width: 600px) {
+    div.img-logo-mobile {
+      display: none;
+    }
+  }

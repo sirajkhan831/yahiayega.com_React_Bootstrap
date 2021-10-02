@@ -3,7 +3,7 @@ function Home() {
         <body className="body">
             <div className="container-fluid front-welcome">
                 <div className="row welcome">
-                    <div className="col portal">
+                    <div className="col portal container-fluid">
                         <h1 className="h1" style={{ marginTop: '3rem' }}>Chhattisgarh's <br /> own education <br /> portal</h1>
                         <h2 className="h2">ENGINEERING | MEDICAL | COMMERCE</h2>
                         <div className="container-fluid button" style={{ marginBottom: '5rem' }}>
@@ -13,8 +13,8 @@ function Home() {
                             </a>
                         </div>
                     </div>
-                    <div className="img" style={{ maxWidth: '50rem' }}>
-                        <img src="logo.png" alt="No Logo" width='90%' />
+                    <div className="img img-logo-mobile col col-img-portal container-fluid" style={{ maxWidth: '50rem' ,marginTop: '1rem'}}>
+                        <img src="logo.png" alt="No Logo" width='600rem' />
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@ function Home() {
                                 <img src="book.png" alt="Books" height="320rem" width="550rem" />
                                 <h2 className="h2" style={{ fontSize: '2rem' }}>Books</h2>
                                 <h2 className="h2 service-h2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque rem eos eveniet nisi impedit excepturi quo, fugit labore dicta quis veniam necessitatibus expedita fuga non repellendus quae, nihil recusandae soluta. Dolorum, sint.</h2>
-                                <div className="container-fluid button">
+                                <div className="container-fluid button btn-service">
                                     <a href="https://www.yahiayega.com/shop">
                                         <button type="button" class="btn btn-warning col home-btn" style={{ fontFamily: 'El Messiri' }}>Shop Now
                                         </button>
@@ -46,13 +46,13 @@ function Home() {
                                 <img src="pencil.png" alt="pencil" height="320rem" width="550rem" />
                                 <h2 className="h2" style={{ fontSize: '2rem' }}>Sample Papers</h2>
                                 <h2 className="h2 service-h2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque rem eos eveniet nisi impedit excepturi quo, fugit labore dicta quis veniam necessitatibus expedita fuga non repellendus quae, nihil recusandae soluta. Dolorum, sint.</h2>
-                                <div className="container-fluid button">
+                                <div className="container-fluid button btn-service">
                                     <a href="https://www.yahiayega.com/shop">
                                         <button type="button" class="btn btn-warning col home-btn" style={{ marginTop: '0px', fontFamily: 'El Messiri' }}>CSVTU
                                         </button>
                                     </a>
                                 </div>
-                                <div className="container-fluid">
+                                <div className="container-fluid btn-service">
                                     <a href="https://www.yahiayega.com/shop">
                                         <button type="button" class="btn btn-warning col home-btn" style={{ marginTop: '0px', fontFamily: 'El Messiri' }}>PTRSU
                                         </button>
@@ -65,7 +65,7 @@ function Home() {
                                 <img src="videos.webp" alt="Video" height="320rem" width="550rem" />
                                 <h2 className="h2" style={{ fontSize: '2rem' }}>Lecture Videos</h2>
                                 <h2 className="h2 service-h2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque rem eos eveniet nisi impedit excepturi quo, fugit labore dicta quis veniam necessitatibus expedita fuga non repellendus quae, nihil recusandae soluta. Dolorum, sint.</h2>
-                                <div className="container-fluid button">
+                                <div className="container-fluid button btn-service">
                                     <button type="button" class="btn btn-warning col home-btn disabled" style={{ fontFamily: 'El Messiri' }}>Coming Soon
                                     </button>
                                 </div>

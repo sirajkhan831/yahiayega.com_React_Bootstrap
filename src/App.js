@@ -81,12 +81,12 @@ function App() {
                     <div className="container-fluid text-center text-md-left">
                         <div className="row">
                             <div className="check">
-                                <a className="navbar-brand social" href="https://www.facebook.com"
+                                <a className="navbar-brand social" href="https://www.facebook.com/Yahi-Aayega-101677498013543/" target="_blank"
                                     style={{ color: 'white', fontFamily: 'El Messiri', fontSize: '1.6rem' }}>
-                                    <img src="FB.png" alt="logo" width='35px' height='35px' /></a>
-                                <a className="navbar-brand social" href="https://www.instagram.com"
+                                    <img src="fb.webp" alt="logo" width='40px' height='40px' /></a>
+                                <a className="navbar-brand social" href="https://www.instagram.com" target="_blank"
                                     style={{ color: 'white', fontFamily: 'El Messiri', fontSize: '1.6rem' }}>&emsp;&emsp;
-                                    <img src="ig.png" alt="logo" width='35px' height='35px' /></a>
+                                    <img src="ig.webp" alt="logo" width='40px' height='40px' /></a>
                             </div>
                         </div>
                     </div>
