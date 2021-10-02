@@ -3,7 +3,7 @@ function CSVTU() {
         <div>
             <div className="container-fluid front-csvtu1" style={{ paddingTop: '1rem' }}>
                 <div className="csvtu-text">
-                    <h1 className="h1" style={{ fontSize: '2.4rem', marginTop: '5rem' ,marginBottom: '0px',borderTop: '2px solid wheat', borderBottom: '2px solid wheat',borderRadius: '5px'}}>Chhattisgarh Swami Vivekanand Technical University</h1></div>
+                    <h1 className="h1" style={{ fontSize: '2.4rem', marginTop: '5rem', marginBottom: '0px', borderTop: '2px solid wheat', borderBottom: '2px solid wheat', borderRadius: '5px' }}>Chhattisgarh Swami Vivekanand Technical University</h1></div>
                 <div className="container-fluid image-csvtu"><div className="row"><div className="col col-front-csvtu"><img src="csvtu.webp" alt="" className="img-fluid" style={{ border: '2px solid wheat', borderRadius: '2rem' }} /></div></div></div>
             </div>
             <div className="container-fluid csvtu-content">
@@ -49,7 +49,8 @@ function CSVTU() {
                 </div>
             </div>
             <a href="https://wa.me/918966076379" target="_blank">
-                <div className="fixed-btn"></div>
+                <div className="container fixed-button">
+                </div>
             </a>
         </div>
     );

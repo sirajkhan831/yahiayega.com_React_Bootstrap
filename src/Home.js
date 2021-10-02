@@ -13,7 +13,7 @@ function Home() {
                             </a>
                         </div>
                     </div>
-                    <div className="img img-logo-mobile col col-img-portal container-fluid" style={{ maxWidth: '50rem' ,marginTop: '1rem'}}>
+                    <div className="img img-logo-mobile col col-img-portal container-fluid" style={{ maxWidth: '50rem', marginTop: '1rem' }}>
                         <img src="logo.png" alt="No Logo" width='600rem' />
                     </div>
                 </div>
@@ -94,9 +94,10 @@ function Home() {
                 </div>
             </div>
             <a href="https://wa.me/918966076379" target="_blank">
-                <div className="fixed-btn"></div>
+                <div className="container fixed-button">
+                </div>
             </a>
-        </body>
+        </body >
     );
 }
 

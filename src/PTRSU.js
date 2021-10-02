@@ -49,8 +49,9 @@ function PTRSU() {
             </div>
         </div>
         <a href="https://wa.me/918966076379" target="_blank">
-            <div className="fixed-btn"></div>
-        </a>
+                <div className="container fixed-button">
+                </div>
+            </a>
     </div>
     );
 }

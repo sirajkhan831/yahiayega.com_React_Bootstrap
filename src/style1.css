@@ -514,3 +514,19 @@
       display: none;
     }
   }
+  .fixed-button{
+      min-height: 3.2rem;
+      max-width: 3.2rem;
+      position: fixed;
+      right: 1%;
+      bottom: 4%;
+      background-image: url("wa.png");
+  }
+  .fixed-button:hover{
+    min-height: 3.2rem;
+    max-width: 3.2rem;
+    position: fixed;
+    right: 1%;
+    bottom: 4%;
+    background-image: url("WhA.png");
+}

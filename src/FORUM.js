@@ -7,7 +7,8 @@ function FORUM() {
                 </div>
             </div>
             <a href="https://wa.me/918966076379" target="_blank">
-                <div className="fixed-btn"></div>
+                <div className="container fixed-button">
+                </div>
             </a>
         </div>
     );
