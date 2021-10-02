@@ -318,14 +318,7 @@
 }
 
 .container-forum {
-    margin-left: 22%;
-    border-radius: 2rem;
     background-image: url(/src/forum-bg.jpg);
-    opacity: 100%;
-    overflow: hidden;
-    background-color: rgb(38, 40, 45);
-    margin-top: 2rem;
-    max-width: 55rem;
 }
 
 .text {
@@ -477,4 +470,24 @@
 }
 .right-side{
     text-align: center;
+}
+.front-teams{
+    background-color: rgb(21, 29, 32);
+    min-height: 48rem;
+}
+.col-member{
+    margin: 1rem;
+    min-height: 20rem;
+}
+.image-team{
+    display: flex;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.col-forum{
+    max-width: 30rem;
+    margin-top: 3rem;
+    border: 2px solid wheat;
+    border-radius: 2rem;
 }

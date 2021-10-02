@@ -13,60 +13,13 @@ import Home from './Home';
 import PTRSU from './PTRSU';
 import FORUM from './FORUM';
 import Login from "./Login";
+import Team from "./Team";
+import Medical from "./Medical";
 import './style1.css'
 
 function App() {
     return (
         <div className="App">
-            {/* <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-                <div className="container-fluid nav">
-                    <div className="check">
-                        <a className="navbar-brand" href="/" style={{ color: 'white' }}>YahiAyega.com
-                            <img src="logo.png" alt="logo" width='35px' height='35px' />
-                        </a>
-                    </div>
-                    <div className="navs">
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                    <div className="topnav-right">
-                        <div className="collapse navbar-collapse topnav-right navs" id="navbarSupportedContent">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li className="nav-item">
-                                    <a className="nav-link" aria-current="page" href="/">Home</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link hoven" href="https://www.yahiayega.com/shop">Shop</a>
-                                </li>
-                                <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle hoven" href="#" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Universities
-                                    </a>
-                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a className="dropdown-item" href="/csvtu">CSVTU</a></li>
-                                        <li><a className="dropdown-item" href="/ptrsu">PTRSU</a></li>
-                                        <li><a className="dropdown-item"
-                                            href="https://www.yahiayega.com/medical">Medical</a></li>
-                                    </ul>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link hoven" href="/forum">Forum</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link hoven" href="https://www.yahiayega.com/codewisdom">Code Wisdom</a>
-                                </li>
-                                <li>
-                                    <a className="nav-link dropdown" href="/login">Login</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav> */}
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,7 +41,7 @@ function App() {
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href="/csvtu">CSVTU</a></li>
                                         <li><a class="dropdown-item" href="/ptrsu">PTRSU</a></li>
-                                        <li><a class="dropdown-item" href="https://www.yahiayega.com/medical" target="_blank">Medical</a></li>
+                                        <li><a class="dropdown-item" href="/medical">Medical</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -99,6 +52,9 @@ function App() {
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/login">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/team">Team</a>
                                 </li>
                             </ul>
                         </div>
@@ -117,6 +73,8 @@ function App() {
                     <Route exact path="/ptrsu" component={PTRSU} />
                     <Route exact path="/forum" component={FORUM} />
                     <Route exact path="/login" component={Login} />
+                    <Route exact path="/team" component={Team} />
+                    <Route exact path="/medical" component={Medical} />
                 </Switch>
             </Router>
             <div className="footer">
