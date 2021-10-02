@@ -45,8 +45,11 @@
     font-family: 'El Messiri', sans-serif;
 }
 
-.hoven:hover {
-    color: rgb(255, 255, 255) !important;
+.nav-link:hover {
+    background-color: rgb(21, 29, 32);
+    border-bottom: 2px solid wheat;
+    border-radius: 0.4rem;
+    color: rgba(255, 255, 255, 1) !important;
 }
 
 .dropdown-menu {
